@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navigasi {
+    background-color: rgb(29, 96, 241);
+    width: 100%;
+    height: 70px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+}
+
+.logo {
+    padding: 30px 10px 30px;
+}
+
+.menu {
+    margin-left: 600px;
+}
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 60px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+.menu ul li a:hover {
+    color: rgb(179, 161, 161);
+    font-style: italic;
+}
+
+.banner {
+    background-color: rgb(10, 72, 207);
+    text-align: center;
+    height: 550px;
+    color: white;
+}
+.banner img {
+    height: 150px;
+    border: 6px solid white;
+    margin-top: 100px;
+    border-radius: 200px;
+}
+.banner h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.banner button {
+    margin-top: 60px;
+    padding: 10px;
+    width: 400px;
+    border: none;
+    border-radius: 50px;
+}
+.banner button:hover {
+    color: rgb(179, 161, 161);
+    font-style: italic;
+}
+h1 span:before {
+    content: '';
+    animation: gerak infinite 7s ease;
+    transform: translateY(-50%);
+    color: lightblue;
+    font-size: 40px;
+}
+@keyframes gerak {
+    0% {
+        content: 'Selamat datang';
+    }
+
+    50% {
+        content: 'Saya AULIA PRATIWI';
+    }
+
+    100% {
+        content: 'Terimakasih Sudah Singgah';
+    }
+}
+
+.box-pendidikan {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.box-kiri ,.box-kanan ,.box-tengah{
+    width: 300px;
+    height: 350px;
+    background-color: gray;
+    text-align: center;
+    margin: 70px 20px 20px 55px;
+    padding: 30px 30px;
+    border-radius: 10px;
+    display: inline-table;
+}
+.box-kiri:hover ,.box-kanan:hover ,.box-tengah:hover {
+    background-color:  rgb(10, 72, 207);
+    color: white;
+}
+.box-pendidikan h3, p{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 0px 20px;
+}
+
+.box-softskill {
+    text-align: center;
+    color: black;
+    margin: 0px auto;
+    margin-top: 70px;
+}
+
+.box-kontak img{
+    width: 100px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.box-kontak {
+    color: #4d4d4d;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.footer {
+    background-color: rgb(100, 83, 70);
+    width: 100%;
+    height: 40px;
+    color: white;
+    padding: 3px;
+    margin: 50px auto 0px;
+    text-align: center;
+}
